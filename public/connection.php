@@ -41,7 +41,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 // email VARCHAR(50),
 // reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 // )';
-
+        
 // if ($conn->query($sql) === TRUE) {
 // 	# code...
 // 	echo "Table created";

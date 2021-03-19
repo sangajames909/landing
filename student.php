@@ -11,6 +11,7 @@
 
 </head>
 <body style="background-color: #B2EBF2;">
+  
   <div class="container container-fluid">
   <h3 style="text-align: center; background-color: blue;">STUDENTS</h3>
   
@@ -18,14 +19,15 @@
   <a class="btn btn-secondary" href="staff.php">Go to staff form</a>
   <br>
   <hr>
-  <form method="post" action="student.php">
+  <form method="post" action="studentupload.php">
+    <!-- comment posting update to requested -->
     <div class="form-group">
       <label for="name">ID:</label>
       <input text="name" class="form-control" id="name" placeholder="Enter your id" name="email">
     </div>
     <div class="form-group">
       <label for="">First Name:</label>
-      <input text="name" class="form-control" id="name" placeholder="Enter first name" name="name">
+      <input text="name" class="form-control" id="name" placeholder="Enter first name" name="name"> 
     </div>
     <div class="form-group">
       <label for="">Last name:</label>
@@ -46,8 +48,7 @@
     <br>
     <div class="row" style="margin-bottom: 10px;">
     <div class="col">
-        <a class="btn btn-primary btn-block">Submit</a> 
-
+       <input type="submit" name="save" value="submit record" class="btn-warning btn-block">
     </div>
   </form>
 </div>
